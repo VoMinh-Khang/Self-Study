@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css" /> 
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="title">Register Form</h1>
+        <form action="#" class="form"></form>
+        <div class="input-group">
+          <label for="username" class="label">Username</label>
+          <input type="text" id="username" class="input" placeholder="Your username">
+          <span class="error-message"></span>
+          <span class="icon icon-success hidden">✅</span>
+          <span class="icon icon-error hidden">❌</span>
+        </div>
+        <div class="input-group">
+          <label for="email" class="label">Email</label>
+          <input type="text" id="email" class="input" placeholder="Your email">
+          <span class="error-message"></span>
+          <span class="icon icon-success hidden">✅</span>
+          <span class="icon icon-error hidden">❌</span>
+        </div>
+        <div class="input-group">
+          <label for="password" class="label">Password</label>
+          <input type="password" id="password" class="input">
+          <span class="error-message"></span>
+          <span class="icon icon-success hidden">✅</span>
+          <span class="icon icon-error hidden">❌</span>
+        </div>
+        <div class="input-group">
+          <label for="password-confirmation" class="label">Password Confirmation</label>
+          <input type="password" id="password-confirmation" class="input">
+          <span class="error-message"></span>
+          <span class="icon icon-success hidden">✅</span>
+          <span class="icon icon-error hidden">❌</span>
+        </div>
+        <button class="button">Create account</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="exchange-rate">
+            <div id="base-unit"></div>
+            <div id="target-rate"></div>
+        </div>
+        <div class="input-group">
+            <input type="number" id="base-amount" class="input-box" placeholder="Enter the base amount">
+            <select class="select-box" id="base-code" title="Select the base code"></select>
+            <input type="number" id="target-amount" class="input-box" placeholder="Enter the target amount"/>
+            <select class="select-box" id="target-code" title="Select the target code"></select>
+        </div>
+        <p class="error-message"></p>
+    </div>
+</body>
+</html>
